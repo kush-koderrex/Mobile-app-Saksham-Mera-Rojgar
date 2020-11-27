@@ -38,7 +38,7 @@ class WebViewLoadUI extends State<WebViewLoad>{
   Widget build(BuildContext context) {
     return Scaffold(
         body: WebView(
-          initialUrl: 'https://sakshamapp.org/',
+          initialUrl: 'url',
           javascriptMode: JavascriptMode.unrestricted,
         )
     );
